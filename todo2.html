@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" , initial-scale=1.0">
+    <link rel="stylesheet" href="todo2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <form>
+
+            <div>
+                <input type="text" placeholder="enter your text here" name="text">
+                <p class="error"></p>
+            </div>
+
+            <select class="option" name="status">
+                <option value="todo">To do</option>
+                <option value="inprogress">In progress</option>
+                <option value="done">Done</option>
+            </select>
+
+            <button type="submit" class="addBtn">add task</button>
+
+        </form>
+
+        <div class="cards-papa">
+            <div class="cards">
+                <h1>To do</h1>
+                <div class="board toDo"></div>
+            </div>
+
+            <div class="cards">
+                <h1>In progress</h1>
+                <div class="board inProgress"></div>
+            </div>
+
+            <div class="cards">
+                <h1>Done</h1>
+                <div class="board Done"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="todo2.js"></script>
+</body>
+
+</html>

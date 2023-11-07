@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/New_york_times_square-terabass.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+input {
+    padding: 10px;
+}
+
+.addBtn {
+    padding: 10px;
+    background-color: #c2c2c2;
+    border-radius: 4px;
+}
+
+.cards-papa {
+    display: flex;
+    gap: 60px;
+}
+
+.cards {
+    background-color: aliceblue;
+    color: #5e585e;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    height: fit-content;
+}
+
+.cards>h1 {
+    background-color: aliceblue;
+    border: 1px solid #c2c2c2;
+}
+
+.card {
+    background-color: white;
+    color: #5e585e;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card>img {
+    width: 20px;
+    height: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
